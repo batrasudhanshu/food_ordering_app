@@ -12,7 +12,7 @@ class MyTextFormField extends StatelessWidget {
       controller: controller,
       obscureText: false,
       decoration: InputDecoration(
-        fillColor: Color(0xfff5d8e4),
+        fillColor: Color.fromRGBO(212, 230, 241, 1),
         filled: true,
         hintText: title,
         border: OutlineInputBorder(

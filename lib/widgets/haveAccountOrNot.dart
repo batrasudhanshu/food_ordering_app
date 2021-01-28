@@ -15,7 +15,8 @@ class HaveAccountOrNot extends StatelessWidget {
           onTap: onTap,
           child: Text(
             subTitle,
-            style: TextStyle(color: Colors.pink, fontSize: 20.0),
+            style: TextStyle(
+                color: Color.fromRGBO(31, 97, 141, 1), fontSize: 20.0),
           ),
         )
       ],

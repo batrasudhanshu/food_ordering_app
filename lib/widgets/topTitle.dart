@@ -17,7 +17,7 @@ class TopTitle extends StatelessWidget {
             style: TextStyle(
               fontSize: 30.0,
               fontStyle: FontStyle.italic,
-              color: Colors.pink,
+              color: Color.fromRGBO(31, 97, 141, 1),
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -25,7 +25,7 @@ class TopTitle extends StatelessWidget {
             subTitle,
             style: TextStyle(
               fontSize: 40.0,
-              color: Colors.pink,
+              color: Color.fromRGBO(52, 73, 94, 1),
               fontWeight: FontWeight.bold,
             ),
           ),
