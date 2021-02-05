@@ -1,5 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:food_ordering_app/screens/about.dart';
+import 'package:food_ordering_app/screens/contact.dart';
 
 class HomePage extends StatelessWidget {
   Widget _buildSingleFeature(
@@ -363,6 +365,11 @@ class HomePage extends StatelessWidget {
                   )),
             ),
             ListTile(
+              onTap: () {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (ctx) => About()),
+                );
+              },
               leading: Icon(
                 Icons.info,
                 color: Color.fromRGBO(40, 55, 71, 1),
@@ -385,6 +392,11 @@ class HomePage extends StatelessWidget {
                   )),
             ),
             ListTile(
+              onTap: () {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (ctx) => Contact()),
+                );
+              },
               leading: Icon(
                 Icons.call,
                 color: Color.fromRGBO(40, 55, 71, 1),

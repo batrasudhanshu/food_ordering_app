@@ -31,6 +31,8 @@ dependencies:
   firebase_auth: ^0.20.0+1
   cloud_firestore: ^0.16.0
   firebase_core: ^0.7.0
+  carousel_pro: ^1.0.0
+  image_picker: ^0.6.7+22
 
 dev_dependencies:
   flutter_test:
@@ -58,6 +60,9 @@ flutter:
      - assets/images/biryani.png
      - assets/images/japaneese.png
      - assets/images/mexican.png
+     - assets/images/skip_screen1.jpeg
+     - assets/images/skip_screen2.jpg
+     - assets/images/skip_screen3.jpeg
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
