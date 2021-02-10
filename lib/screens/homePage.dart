@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:food_ordering_app/screens/about.dart';
 import 'package:food_ordering_app/screens/contact.dart';
+import 'package:food_ordering_app/screens/profileScreen.dart';
 
 class HomePage extends StatelessWidget {
   Widget _buildSingleFeature(
@@ -352,6 +353,11 @@ class HomePage extends StatelessWidget {
                   backgroundImage: AssetImage("assets/images/sud.jpg")),
               accountName: Text("Sudhanshu Batra"),
               accountEmail: Text("batrasudhanshu09@gmail.com"),
+              onDetailsPressed: () => {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (ctx) => ProfileScreen()),
+                )
+              },
             ),
             ListTile(
               leading: Icon(

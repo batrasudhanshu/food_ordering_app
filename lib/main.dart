@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:food_ordering_app/screens/DetailScreen.dart';
 import 'package:food_ordering_app/screens/checkOut.dart';
 import 'package:food_ordering_app/screens/homePage.dart';
 import 'package:food_ordering_app/screens/profileScreen.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
       //     }
       //   },
       // ),
-      home: ProfileScreen(),
+      home: HomePage(),
     );
   }
 }
